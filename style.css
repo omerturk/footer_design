@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:1600px;
+    height:1200px;
+    background-color:#FFFFFF;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    position: relative;
+}
+
+.circle{
+    width:1333px;
+    height:1333px;
+    background: linear-gradient(to bottom right,#FF8BF2,#FFD578);
+    border-radius: 50%;
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width:1464px;
+    height:655px;
+    background-color:#fff;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:column;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    z-index: 3;
+}
+.content{
+    width:1264px;
+    height:415px;
+    display:flex;
+    justify-content:space-between;
+    margin-top: 60px;
+}
+ul li{
+    list-style-type:none;
+    margin-bottom:5px;
+    padding-bottom: 20px;
+
+}
+.blue{
+    color: #82BDFF;
+}
+.title4{
+    width: 424px;
+
+}
+.content ul li button{
+    background-color:#fff;
+}
+ul li:nth-child(1){
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.content2{
+    width:1264px;
+    height: 31px;
+    display:flex;
+    justify-content:space-between;
+}
+.button{
+    width: 367px;
+    height: 68px;
+    background: linear-gradient(to bottom right,#8BCDFF,#6888F3) !important;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.writing{
+    font-size: 16px;
+    color: #1A2250;
+}
+input{
+    border: none;
+}
+.mailSend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 365px;
+    height: 68px;
+    border-radius: 5px;
+    box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+.iconInput{
+    position: relative;
+}
+.iconInput i{
+    position: absolute;
+    top:25px;
+    left: 20px;
+    width: 33px;
+    height: 25px;
+}
+
+.fa-envelope{
+    margin-right: 10px;
+    color: #8BCDFF;
+}
+
+input[type=text]{
+    padding-left: 50px;
+    font-size: 18px;
+}
